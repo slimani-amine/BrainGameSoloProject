@@ -1,0 +1,101 @@
+body {
+    background: url("https://img.freepik.com/photos-gratuite/mur-beton-gris-clair_53876-89532.jpg?w=996&t=st=1687768372~exp=1687768972~hmac=4ec61aa8113d58a98ad0bb29e6449c492ad4382bee4d9b76435213a537fe6ab9") no-repeat fixed center;
+    background-size: cover;
+}
+
+nav {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.section-1 {
+    display: inline-block;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+.column {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.subheading {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.image {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.footer {
+    background-color: black;
+    padding: 16px;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.social-button {
+    background-color: transparent;
+    border: none;
+    margin: 0 8px;
+    padding: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+    padding: 8px;
+}

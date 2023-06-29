@@ -1,0 +1,235 @@
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 70%;
+    margin-top: 15px;
+    padding-left: 3%;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding-left: 5%;
+}
+
+.a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav .a:hover {
+    color: blue;
+}
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.contact-box {
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.login-Form,
+.signup-Form,
+.contact-Form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.form_label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.form_input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #344a72;
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a {
+    color: #49c1a2;
+}
+
+#rec {
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+
+.footer {
+    background-color: black;
+    padding: 1rem;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.social_btn {
+    background-color: transparent;
+    border: none;
+    margin: 0 0.5rem;
+    padding: 0;
+}
+
+.a_footer {
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+}
+
+.rate,
+.quiz1-container,
+.quiz2-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.question,
+.question2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.options,
+.options2 {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.option,
+.option2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-button,
+.next-button2 {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.game-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.game-container p {
+    letter-spacing: 1px;
+}
+
+.start-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
